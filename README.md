@@ -4,7 +4,7 @@
 This project predicts customer churn (whether a customer leaves the bank) using a **Tuned Random Forest Classifier**.
 The model is trained on customer demographic and financial data and outputs churn risk.
 
-## 🔑Key Steps:
+## 🔑Key Steps
 - Data cleaning & preprocessing  
 - Train/Test split  
 - Model training  
@@ -87,7 +87,7 @@ Top features contributing to churn (Random Forest Feature Importance):
 - Geography_Spain → 0.9%  
 - HasCrCard → 0.7%  
 
-**Insights:**  
+**Insights**  
 - Older customers with fewer products and inactive status are more likely to churn
 - German customers have a higher risk of leaving
 - Financial attributes like Balance and EstimatedSalary are important predictors  

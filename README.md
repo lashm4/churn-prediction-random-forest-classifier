@@ -1,25 +1,25 @@
-## 🏦Customer Churn Prediction (Random Forest)
+## Customer Churn Prediction (Random Forest)
 
 ## Project Overview
 This project predicts customer churn (whether a customer leaves the bank) using a **Tuned Random Forest Classifier**.
 The model is trained on customer demographic and financial data and outputs churn risk.
 
-## 🔑Key Steps
+## Key Steps
 - Data cleaning & preprocessing  
 - Train/Test split  
 - Model training  
 - Model evaluation  
-- Hyperparameter tuning for best Random Forest model  
+- Hyperparameter tuning for the best Random Forest model  
 - Feature importance analysis  
 - Comparison with Logistic Regression & XGBoost  
 - Save model for deployment  
 
-## 📊Dataset
+## Dataset
 - **Source:** Bank Customer Churn Dataset (Kaggle)  
 - **Target:** `Exited` → (1 = Churned, 0 = Stayed)  
 - **Features:** Demographics, account information, and financial data.  
 
-## ⚙️Installation
+## Installation
 Clone this repository and install dependencies:
 
 ```bash
@@ -28,7 +28,7 @@ cd Bank-Churn-Prediction
 pip install -r requirements.txt
 ```
 
-## 🚀Usage
+## Usage
 Run the Jupyter Notebook:
 
 ```bash
@@ -52,7 +52,7 @@ rf_pred = rf_model.predict(X_new)
 print("Random Forest Churn Prediction:", rf_pred)
 ```
 
-## 📈Model Performance
+## Model Performance
 **Tuned Random Forest (Test Set):**
 - Test Accuracy: 83.6%  
 - ROC-AUC: 0.860 → good separation of churners  
@@ -72,7 +72,7 @@ print("Random Forest Churn Prediction:", rf_pred)
 - Accuracy dropped slightly due to more false positives (197 loyal customers flagged incorrectly).  
 - From a business standpoint, catching more churners outweighs the cost of false positives.
 
-## 🔑Key Features & Insights
+## Key Features & Insights
 Top features contributing to churn (Random Forest Feature Importance):
 
 - Age → 32.2%  
@@ -107,6 +107,6 @@ Dependencies are listed in `requirements.txt`, including:
 - joblib  
 - jupyter  
 
-## 👩‍💻Author
+## 👩🏻‍💻Author
 Created by Lashmi M., feel free to reach out!
 
